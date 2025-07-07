@@ -1,4 +1,4 @@
-package com.library.transaction.dto;
+package com.library.fine.dto;
 
 public class BookDTO {
     private Long bookId;

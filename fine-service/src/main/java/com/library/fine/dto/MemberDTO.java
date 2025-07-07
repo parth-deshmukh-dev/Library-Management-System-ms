@@ -1,4 +1,4 @@
-package com.library.transaction.dto;
+package com.library.fine.dto;
 
 enum MembershipStatus {
     ACTIVE, INACTIVE, SUSPENDED

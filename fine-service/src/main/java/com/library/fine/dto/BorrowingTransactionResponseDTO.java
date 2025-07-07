@@ -1,6 +1,6 @@
-package com.library.transaction.dto;
+package com.library.fine.dto;
 
-import com.library.transaction.entity.BorrowingTransaction;
+
 import java.time.LocalDate;
 
 public class BorrowingTransactionResponseDTO {
@@ -14,21 +14,6 @@ public class BorrowingTransactionResponseDTO {
 
     public BorrowingTransactionResponseDTO() {
         // Default constructor
-    }
-
-    // Constructor to map from entity + related data
-    public BorrowingTransactionResponseDTO(
-            BorrowingTransaction transaction,
-            BookDTO book,
-            MemberDTO member
-    ) {
-        this.transactionId = transaction.getTransactionId();
-        this.borrowDate = transaction.getBorrowDate();
-        this.dueDate = transaction.getDueDate();
-        this.returnDate = transaction.getReturnDate();
-        this.status = transaction.getStatus().toString();
-        this.book = book;
-        this.member = member;
     }
 
     // Getters & setters
