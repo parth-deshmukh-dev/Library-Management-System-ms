@@ -1,54 +1,19 @@
-# Java & Maven
-/target/
-**/target/
-*.log
+# Ignore Maven/Gradle build output
+target/
+
+# Ignore logs directory
 logs/
 
-# Eclipse
-.classpath
-.project
-.settings/
-
-# IntelliJ IDEA
+# Ignore IDE files
 *.iml
 .idea/
+*.classpath
+*.project
+*.settings/
 
-# VS Code
-.vscode/
-
-# OS files
+# Ignore OS files
 .DS_Store
 Thumbs.db
 
-# Environment & config
-*.env
-*.local
-
-# Database
-*.h2.db
-*.mv.db
-
-# Build output
-/build/
-**/build/
-
-# Node (if any frontend)
-node_modules/
-
-# Misc
-*.swp
-*.swo
-
-# Ignore generated docs
-*.docset
-
-# Ignore test reports
-**/test-output/
-**/surefire-reports/
-
-# Ignore backup files
-*~
-
-# Ignore scripts output
-scripts/*.log
-logs/eureka-server.log
+# Ignore environment files
+.env
